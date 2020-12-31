@@ -1,0 +1,7 @@
+/node_modules
+/Lib
+/Scripts
+db.sqlite3
+pyvenv.cfg
+.idea
+/tailwindcss/static_src/node_modules
