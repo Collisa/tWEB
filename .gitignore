@@ -7,3 +7,5 @@ pyvenv.cfg
 /tailwindcss/static_src/node_modules
 FollowUp/fixtures
 group.json
+website/Lib
+website/Scripts
