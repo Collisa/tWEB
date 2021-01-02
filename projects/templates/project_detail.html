@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_content %}
+
+    {{ project.title }}
+
+    <img class="w-1/2" src="{% static project.image %}" alt="">
+
+    <h5>About the project:</h5>
+    <p>{{ project.description }}</p>
+    <br>
+    <h5>Technology used:</h5>
+    <p>{{ project.technology }}</p>
+
+{% endblock %}

@@ -15,7 +15,19 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from core import views as core_views
 
 urlpatterns = [
+    path('', include('users.urls')),
+    path('admin/clearcache/', include('clearcache.urls')),
     path('admin/', admin.site.urls),
+    path('projects/', include('projects.urls')),
+    path('blog/', include('blog.urls')),
+    path('core/', core_views.listing, name='listing'),
+    path('core/view_blog/<int:blog_id>/', core_views.view_blog, name='view_blog'),
+    path('see_request/', core_views.see_request),
+    path('user_info/', core_views.user_info),
+    path('private_place/', core_views.private_place),
+    path('staff_place/', core_views.staff_place),
+    path('add_messages/', core_views.add_messages),
 ]

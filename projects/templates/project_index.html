@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block page_content %}
+
+
+    <h1>Projects</h1>
+
+
+    {% for project in projects %}
+        <img class="w-16" src="{% static project.image %}" alt="">
+        {{ project.title }}
+        {{ project.description }}
+        <a href="{% url 'project_detail' project.pk %}">Read More</a>
+    {% endfor %}
+
+
+{% endblock %}

@@ -5,3 +5,5 @@ db.sqlite3
 pyvenv.cfg
 .idea
 /tailwindcss/static_src/node_modules
+FollowUp/fixtures
+group.json
