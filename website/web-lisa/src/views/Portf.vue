@@ -103,7 +103,7 @@
     </div>
   </div>
 
-
+<!--TODO: kleine bollen toevoegen of niet? -->
 
 </template>
 
