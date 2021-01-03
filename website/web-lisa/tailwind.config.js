@@ -25,7 +25,13 @@ module.exports = {
       },
       fontFamily: {
         'montserrat': ['Montserrat Alternates'],
-      }
+      },
+      spacing: {
+           '128': '32rem',
+           '150': '37.5rem',
+           '172': '43rem',
+           '200': '50rem',
+      },
     },
   },
   variants: {
