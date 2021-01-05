@@ -22,7 +22,9 @@
           <img class="arrow w-4 sm:w-6 md:w-8 mx-auto" src="../assets/Vector 1.png" alt="vector arrow down"/>
         </div>
 
-        <button class="bg-purplepink-500 bg-opacity-70 py-1 px-2 rounded-lg text-pink-200 text-opacity-40 text-xs sm:text-sm md:text-base">Let's talk!</button>
+        <router-link class="bg-purplepink-500 bg-opacity-70 py-1 px-2 rounded-lg text-pink-200 text-opacity-40 text-xs sm:text-sm md:text-base" to="/contact">
+          Let's talk!
+        </router-link>
       </div>
     </div>
 
@@ -44,10 +46,9 @@
               Deel jouw visie met mij en we maken er samen realiteit van! --
             </div>
             <div class="flex justify-end">
-              <button
-                  class="z-10 bg-purplepink-500 bg-opacity-70 py-1 px-2 my-6 rounded-lg text-pink-200 text-opacity-40 text-xs sm:text-sm md:text-base">
+              <router-link class="z-10 bg-purplepink-500 bg-opacity-70 py-1 px-2 my-6 rounded-lg text-pink-200 text-opacity-40 text-xs sm:text-sm md:text-base" to="/contact">
                 Let's talk!
-              </button>
+              </router-link>
             </div>
             <div class="flex justify-start mt-2">
               <img class="h-36 bg-white p-1 rounded-lg" src="../assets/web_design.svg" alt=""/>
@@ -64,10 +65,9 @@
             -- Beschik je al over een website? Maar is deze niet meer up-to-date met je diensten?
             Of wil je moderniseren of je design vernieuwen? --
           </div>
-          <button
-              class="z-30 bg-purplepink-500 bg-opacity-70 py-1 px-2 rounded-lg text-pink-200 text-opacity-40 text-xs sm:text-sm md:text-base">
+          <router-link class="z-30 bg-purplepink-500 bg-opacity-70 py-1 px-2 rounded-lg text-pink-200 text-opacity-40 text-xs sm:text-sm md:text-base" to="/contact">
             Let's talk!
-          </button>
+          </router-link>
         </div>
       </div>
     </div>
@@ -87,10 +87,9 @@
         <div class="m-10 flex flex-col text-justify">
           -- Ben je niet alleen op zoek naar een website, maar naar een web applicatie op maat gemaakt?
           Ook hiervoor ben je bij mij op de juiste plaats! Samen kunnen we net datgene maken dat jij nodig hebt! --
-          <button
-              class="z-10 mt-6 self-end bg-purplepink-500 bg-opacity-70 py-1 px-2 rounded-lg text-pink-200 text-opacity-40 text-xs sm:text-sm md:text-base">
+          <router-link class="z-10 mt-6 self-end bg-purplepink-500 bg-opacity-70 py-1 px-2 rounded-lg text-pink-200 text-opacity-40 text-xs sm:text-sm md:text-base" to="/contact">
             Let's talk!
-          </button>
+          </router-link>
         </div>
       </div>
       <div class="flex justify-end items-start">

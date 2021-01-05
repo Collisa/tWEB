@@ -75,7 +75,7 @@
     </div>
 
     <!-- Collibri Tools -->
-    <div class="hidden md:block relative text-center mt-20 mb-12">
+    <div class="hidden md:block relative text-center mt-20 mb-12 relative">
       <div class="mx-auto flex flex-col justify-center items-center w-200 h-200 rounded-full bg-white bg-opacity-30">
         <h2 class="font-semibold text-xl uppercase">Project Collibri</h2>
         <div class="flex flex-row space-x-20 py-12">
@@ -88,10 +88,11 @@
             houden en weer te geven in een proper overzicht.</p>
         </div>
         <img class="w-72 pt-12" src="../assets/werkuren.png" alt="">
+        <div class="md:absolute bg-white bottom-6 left-24 bg-opacity-60 w-32 h-32 rounded-full text-black uppercase font-bold hover:bg-opacity-20 hover:text-white pt-2 flex justify-center items-center">Private website</div>
       </div>
     </div>
 
-    <div class="md:hidden mt-20">
+    <div class="md:hidden mt-20 relative">
       <img class="w-48 h-48 rounded-full mx-auto" src="../assets/login.png" alt="">
       <div class="w-72 h-72 rounded-full bg-white bg-opacity-30 flex flex-col justify-center items-center mx-auto">
         <p class="pb-2">Project Collibri</p>
@@ -100,6 +101,7 @@
       <div class="w-64 h-64 mb-6 rounded-full bg-white bg-opacity-30 flex flex-col justify-center items-center mx-auto">
         <img class="w-56 mx-auto" src="../assets/werkuren.png" alt="">
       </div>
+      <div class="absolute flex justify-center items-center text-center left-4 bottom-4 bg-white bg-opacity-60 w-32 h-32 rounded-full text-black uppercase font-bold hover:bg-opacity-20 hover:text-white pt-2">Private website</div>
     </div>
   </div>
 

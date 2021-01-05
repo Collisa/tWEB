@@ -52,12 +52,11 @@
     <div class="bg-teal-500 bg-opacity-40 rounded-2xl">
       <div class="bg-black m-4 rounded-2xl p-6">
         <h2 class="text-2xl font-semibold pb-4 uppercase">Ideeën-bus</h2>
-        <p>Kortom, ik ben er klaar voor. Ik hoop jij ook!
+        <p class="pb-4">Kortom, ik ben er klaar voor. Ik hoop jij ook!
         Laat je ideeën maar komen.</p>
-        <button
-              class="z-10 mt-6 self-end bg-teal-500 bg-opacity-40 py-1 px-2 rounded-lg text-teal-500 text-opacity-50 text-xs sm:text-sm md:text-base">
-            Let's talk!
-          </button>
+        <router-link class="z-10 mt-6 self-end bg-teal-500 bg-opacity-40 py-1 px-2 rounded-lg text-teal-500 text-opacity-50 text-xs sm:text-sm md:text-base" to="/contact">
+          Let's talk!
+        </router-link>
       </div>
     </div>
   </div>
