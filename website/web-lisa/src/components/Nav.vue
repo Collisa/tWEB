@@ -1,12 +1,12 @@
 <template>
 
-  <nav class="">
+  <nav class="sticky top-0 z-20 bg-black">
 
 
     <div class="flex flex-row justify-between px-8 py-5 items-center relative">
       <div class="pl-2 font-semibold text-xl flex flex-row items-center space-x-6">
         <p>Lisa Collignon</p>
-        <img class="h-4" src="../assets/tWEB.png" alt="">
+        <img class="h-4" src="../assets/dEvLi-wit.png" alt="">
       </div>
 
       <button @click="isActive = !isActive" v-click-away="onClickAway" class="lg:hidden rounded focus:outline-none focus:ring-2 focus:ring-purplepink-400 focus:ring-opacity-40">
@@ -70,7 +70,7 @@
             </a>
           </div>
 
-          <div class="inline-block relative">
+          <div class="hidden inline-block relative">
             <a href="http://localhost:8000/dashboard" class="">
               <p class="p-1 rounded-md hover:bg-opacity-20 hover:text-opacity-50 bg-white text-gray-950 font-semibold text-sm"
                    :class="getCurrentHoverColor">
@@ -133,7 +133,7 @@
           </a>
         </div>
 
-        <div class="inline-block relative">
+        <div class="hidden inline-block relative">
           <a href="http://localhost:8000/dashboard" class="">
             <p class="p-1 rounded-md hover:bg-opacity-20 hover:text-opacity-50 bg-white font-semibold text-sm text-gray-950"
                :class="getCurrentHoverColor">

@@ -6,7 +6,7 @@
     <div class="relative flex-1 rounded-r-3xl h-96 transform translate-y-8 overflow-hidden">
       <div class="z-20 w-full h-full absolute right-0 bg-purplepink-600 bg-opacity-50 md:max-w-3xl xl:rounded-3xl"></div>
       <div class="absolute z-10 top-40 left-20 text-center text-2xl hidden xl:block">
-        <img src="../assets/tWEB.png" alt="">
+        <img src="../assets/dEvLi-wit.png" alt="">
         <p>by <br> Lisa</p>
       </div>
       <img class="bg-white p-1 absolute z-10 top-10 right-10 h-40 sm:h-48 md:h-56 lg:top-6 lg:right-6 lg:h-64 rounded-lg" src="../assets/monitor.svg" alt="pc" />
@@ -18,8 +18,8 @@
         <h1 class="sm:text-2xl md:text-3xl">Vraag het hier!</h1>
 
         <div class="my-10">
-          <img class="arrow w-4 sm:w-6 md:w-8 mx-auto" src="../assets/Vector 1.png" alt="vector arrow down"/>
-          <img class="arrow w-4 sm:w-6 md:w-8 mx-auto" src="../assets/Vector 1.png" alt="vector arrow down"/>
+          <img class="arrow w-4 sm:w-6 md:w-8 mx-auto" src="/src/assets/Vector 1.png" alt="vector arrow down"/>
+          <img class="arrow w-4 sm:w-6 md:w-8 mx-auto" src="/src/assets/Vector 1.png" alt="vector arrow down"/>
         </div>
 
         <router-link class="bg-purplepink-500 bg-opacity-70 py-1 px-2 rounded-lg text-pink-200 text-opacity-40 text-xs sm:text-sm md:text-base" to="/contact">
